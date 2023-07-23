@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik:wght@400;500;600&display=swap');
+</style>
+{   margin:0;
+    padding:0;
+    box-sizing: border-box; 
+    }
+
+:root {
+--ff-title: 'Dela Gothic One', sans-serif;
+--ff-text: 'Rubik', sans-serif;
+--color-black: #1c1c1c;
+--color-white: #ececec;
+--bg-white: url ("../imagenes/bg-white.png");
+--bg-black: url ("../imagenes/bg-black.png")
+}
+
+.body {
+background-color: var(--bg-black);
+color: var(--bg-white);
+font-family: var(--ff-text) ;
+
+}
+
+a { 
+    text-decoration: none;
+color: inherit
+}
+
+ul { 
+    list-style-type: none;
+}
+h1, h2, h3 {
+    font-family: var(--ff-title);
+}
+
+.container { 
+    max-width: 1000px;
+margin:0 auto;
+padding-inline: 2rem;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3 rem;
+    padding-bottom: 0;
+}
+
+.logo { 
+    max-width: 10rem;
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+}
+
+/** contenido de la hoja 1 Mis Finanzas Personales**/
+
+/**.mfp {
+    display: grid;
+    grid-template-columns: 35fr 1fr;
+    grid-template-areas: 
+    "foto titulo"
+    "foto texto";
+}**/
+
+.finanzas-personales {
+    display: grid;
+    grid-template-columns: 0.35fr 1fr;
+    grid-template-areas: 
+    "foto  titulo"
+    "foto  texto"
+    ;
+   padding-block: 3rem ;
+   /**column-gap: 2rem**/;
+}
+
+.finanzas-imagen {
+    grid-area: foto;
+}
+.finanzas-imagen img {
+    max-width: 100%;
+}
+
+.finanzas-titulo {
+    grid-area: titulo;
+    font-size: 2rem;
+}
+
+.finanzas-texto {
+    grid-area: texto;
+    font-size: 1.1 rem;
+    line-height: 1.2;
+}
