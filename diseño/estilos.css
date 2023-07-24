@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik:wght@400;500;600&display=swap');
-</style>
-{   margin:0;
+
+* {   margin:0;
     padding:0;
     box-sizing: border-box; 
     }
@@ -41,14 +41,14 @@ padding-inline: 2rem;
 
 .menu-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 3 rem;
-    padding-bottom: 0;
+    padding: 1 rem;
+    padding-bottom: 1rem;
 }
 
 .logo { 
-    max-width: 10rem;
+    max-width: 12rem;
 }
 
 .nav-list {
@@ -68,7 +68,7 @@ padding-inline: 2rem;
 
 .finanzas-personales {
     display: grid;
-    grid-template-columns: 0.35fr 1fr;
+    grid-template-columns: 0.40fr 1fr;
     grid-template-areas: 
     "foto  titulo"
     "foto  texto"
@@ -93,4 +93,5 @@ padding-inline: 2rem;
     grid-area: texto;
     font-size: 1.1 rem;
     line-height: 1.2;
+    text-align: justify;
 }
