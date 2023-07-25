@@ -95,3 +95,11 @@ padding-inline: 2rem;
     line-height: 1.2;
     text-align: justify;
 }
+
+.container-cripto-sinpadding {
+    padding: 0;
+}
+.imagencriptos {
+        max-width: 100%;
+}
+
