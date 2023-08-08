@@ -16,10 +16,14 @@
 
 .body {
 background-color: var(--bg-black);
-color: var(--bg-white);
+color: var(--bg-blackwhite);
 font-family: var(--ff-text) ;
-
 }
+.nav-list {
+    color: white;
+    font-weight: bold;
+ }
+
 
 a { 
     text-decoration: none;
@@ -45,6 +49,9 @@ padding-inline: 2rem;
     align-items: center;
     padding: 1 rem;
     padding-bottom: 1rem;
+    background-color: #1411da;
+    color: rgb(231, 240, 240);
+    font-size: 1rem;
 }
 
 .logo { 
