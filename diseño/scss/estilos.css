@@ -1,108 +1,456 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,400;1,300&family=Rubik:wght@400;500;600&display=swap");
+/** seteo a cero **/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root {
-  --ff-title: "Dela Gothic One", sans-serif;
-  --ff-text: "Rubik", sans-serif;
-  --color-black: #1c1c1c;
-  --color-white: #ececec;
-  --bg-white: url ("../imagenes/bg-white.png");
-  --bg-black: url ("../imagenes/bg-black.png") ;
+.menu-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px 5px 5px 5px;
+  height: auto;
+  background-image: url(../../../Imagenes/moneda.jpg);
+  color: rgb(243, 239, 239);
+  font-size: 1rem;
+  position: sticky;
+  padding-top: 1.5rem;
+  flex-direction: row;
+  box-sizing: content-box;
 }
-
-.body {
-  background-color: var(--bg-black);
-  color: var(--bg-blackwhite);
-  font-family: var(--ff-text);
+.menu-header .logo {
+  display: flex;
+  box-sizing: content-box;
 }
-.body .nav-list {
-  color: white;
-  font-weight: bold;
+.menu-header .nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: rgb(250, 248, 248);
+  font-weight: rgb(241, 239, 239);
   font-family: sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
+  font-size: large;
+  flex-basis: content;
   list-style-type: none;
+  position: sticky;
+  top: 0;
+  align-content: space-between;
+  box-sizing: content-box;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
-h1, h2, h3 {
-  font-family: var(--ff-title);
+.menu-header .nav-menu .nav-list {
+  display: flex;
+  padding: 2 rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #FFFFFF;
+  font-weight: rgb(241, 239, 239);
+  font-size: large;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: content-box;
 }
 
 .container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding-inline: 2rem;
-}
-
-.menu-header {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
-  padding: 1 rem;
-  padding-bottom: 1rem;
-  background-color: #1411da;
-  color: rgb(231, 240, 240);
+  padding: 5px 5px 5px 5px;
+  height: auto;
+  background-image: url(../../../Imagenes/lluviadolar.jpeg);
+  background-image: center;
+  color: #FFFFFF;
   font-size: 1rem;
-}
-.menu-header .logo {
-  max-width: 12rem;
-  padding: 1 rem;
-}
-.menu-header .logo .nav-list {
-  display: flex;
+  position: sticky;
+  padding-top: 2rem;
   gap: 1rem;
+  flex-direction: row;
+  box-sizing: content-box;
 }
 
-/** contenido de la hoja 1 Mis Finanzas Personales**/
-/**.mfp {
-    display: grid;
-    grid-template-columns: 35fr 1fr;
-    grid-template-areas: 
-    "foto titulo"
-    "foto texto";
-}**/
 .finanzas-personales {
-  display: grid;
-  grid-template-columns: 0.4fr 1fr;
-  grid-template-areas: "foto  titulo" "foto  texto";
-  padding-block: 3rem;
-  /**column-gap: 2rem**/
-}
-
-.finanzas-imagen {
-  grid-area: foto;
-}
-
-.finanzas-imagen img {
-  max-width: 100%;
+  display: flex;
+  margin: 10x 10px 10px 10px;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #3105f7;
+  font-weight: rgb(241, 239, 239);
+  font-size: large;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: content-box;
+  padding: 20px 20px 20px 20px;
 }
 
 .finanzas-titulo {
-  grid-area: titulo;
-  font-size: 2rem;
+  display: flex;
+  margin: auto;
+  padding: 2 rem;
+  padding-top: 2.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #070583;
+  font-weight: rgb(241, 239, 239);
+  font-size: x-large;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: content-box;
+  padding: 5px 5px 5px 5px;
+}
+.finanzas-titulo .finanzas-texto1 {
+  display: flex;
+  margin: auto;
+  padding: 2 rem;
+  padding-top: 2.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #3105f7;
+  font-weight: rgb(241, 239, 239);
+  font-size: large;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: content-box;
+  padding: 5px 5px 5px 5px;
 }
 
-.finanzas-texto {
-  grid-area: texto;
-  font-size: 1.1 rem;
-  line-height: 1.2;
-  text-align: justify;
+.finanzas-texto2 {
+  display: flex;
+  margin: auto;
+  padding: 2 rem;
+  margin-bottom: 1rem;
+  padding-top: 2.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #3105f7;
+  font-weight: rgb(241, 239, 239);
+  font-size: large;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: content-box;
+  padding: 5px 5px 5px 5px;
 }
 
-.container-cripto-sinpadding {
-  padding: 0;
+.video {
+  align-items: center;
 }
 
-.imagencriptos {
-  max-width: 100%;
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: rgb(250, 248, 248);
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: large;
+  flex-basis: content;
+  list-style-type: none;
+  position: sticky;
+  top: 0;
+  align-content: space-between;
+  box-sizing: content-box;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px 5px 5px 5px;
+  height: auto;
+  background-image: url(../../../Imagenes/lluviadolar.jpeg);
+  background-image: center;
+  color: #FFFFFF;
+  font-size: 1rem;
+  position: sticky;
+  padding-top: 2rem;
+  gap: 1rem;
+  flex-direction: row;
+  box-sizing: content-box;
+}
+
+.como-ahorrar {
+  display: flex;
+  margin: 10x 10px 10px 10px;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #3105f7;
+  font-weight: rgb(241, 239, 239);
+  font-size: large;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: content-box;
+  padding: 20px 20px 20px 20px;
+}
+
+.gasto-hormiga {
+  display: flex;
+  margin: auto;
+  padding: 2 rem;
+  margin-top: 10px;
+  padding-top: 3rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #070583;
+  font-weight: rgb(241, 239, 239);
+  font-size: x-large;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: content-box;
+  padding: 5px 5px 5px 5px;
+}
+.gasto-hormiga .gasto-hormiga {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 30px;
+  align-content: center;
+  border-left: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px 5px 5px 5px;
+  height: auto;
+  background-image: center;
+  color: rgb(6, 2, 245);
+  font-size: 1rem;
+  position: sticky;
+  padding-top: 1.5rem;
+  flex-direction: row;
+  box-sizing: content-box;
+}
+
+.enqueinvertir {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px 5px 5px 5px;
+  height: auto;
+  background-image: center;
+  color: rgb(6, 2, 245);
+  font-size: 1rem;
+  position: sticky;
+  padding-top: 1.5rem;
+  flex-direction: row;
+  box-sizing: content-box;
+}
+
+.enqueinvertir-titulo {
+  display: flex;
+  margin: auto;
+  padding: 2 rem;
+  padding-top: 2.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #070583;
+  font-weight: rgb(241, 239, 239);
+  font-size: x-large;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: content-box;
+  padding: 5px 5px 5px 5px;
+}
+
+.enqueinvertir-texto1 {
+  display: flex;
+  margin: auto;
+  padding: 2 rem;
+  padding-top: 2.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #3105f7;
+  font-weight: rgb(241, 239, 239);
+  font-size: large;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: content-box;
+  padding: 5px 5px 5px 5px;
+}
+
+.accordion {
+  display: flex;
+  margin: auto;
+  padding: 2 rem;
+  padding-top: 2.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #3105f7;
+  font-weight: rgb(241, 239, 239);
+  font-size: large;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: content-box;
+  padding: 5px 5px 5px 5px;
+}
+
+.accordion-header {
+  display: flex;
+  margin: auto;
+  padding: 2 rem;
+  padding-top: 2.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #3105f7;
+  font-weight: rgb(241, 239, 239);
+  font-size: large;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: content-box;
+  padding: 5px 5px 5px 5px;
+}
+
+.accordion-body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 5rem;
+  color: rgb(52, 139, 238);
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: large;
+  flex-basis: content;
+  list-style-type: none;
+  position: sticky;
+  top: 0;
+  align-content: space-between;
+  box-sizing: content-box;
+  justify-content: space-evenly;
+}
+
+.nav-menu {
+  display: flex;
+  width: 100px;
+  margin: auto;
+  padding: 2 rem;
+  padding-top: 2.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #090030;
+  font-weight: rgb(241, 239, 239);
+  font-size: large;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: content-box;
+  padding: 5px 5px 5px 5px;
+}
+
+.videolemon {
+  display: flex;
+  width: 100px;
+  margin: auto;
+  padding: 2 rem;
+  padding-top: 2.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #090030;
+  font-weight: rgb(241, 239, 239);
+  font-size: large;
+  list-style-type: none;
+  font-family: "Rubik", sans-serif;
+  position: sticky;
+  top: 0;
+  flex-direction: row;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: content-box;
+  padding: 5px 5px 5px 5px;
+}
+
+.contacto-header {
+  display: grid;
+  grid-template-areas: "mapa  contacto" "mapa  contacto";
+}
+
+.mapa {
+  grid-area: "mapa";
+  justify-content: space-evenly;
+  align-items: end;
+}
+
+.formulario {
+  grid-area: "contacto";
+  justify-content: space-evenly;
+  align-items: left;
 }/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,17 @@
+.contacto-header {
+    display: grid;
+
+grid-template-areas: "mapa  contacto"
+"mapa  contacto";
+}
+
+.mapa {
+   grid-area: "mapa";
+    justify-content: space-evenly;
+    align-items:end;
+}
+.formulario {
+    grid-area: "contacto";
+    justify-content: space-evenly;
+    align-items: left;
+}

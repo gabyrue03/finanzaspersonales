@@ -1,0 +1,60 @@
+
+
+.menu-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center ;
+    padding: 5px 5px 5px 5px ;
+    height: auto;
+    background-image:url(../../../Imagenes/moneda.jpg);
+    color: rgb(243, 239, 239);
+    
+    font-size: 1rem;
+    position: sticky;
+    padding-top: 1.5rem ; 
+    flex-direction: row;
+    box-sizing:content-box ;
+    
+  
+    .logo {
+     display: flex;
+    box-sizing:content-box ;
+    }
+    .nav-menu { 
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        color: rgb(250, 248, 248);
+        font-weight: rgb(241, 239, 239);
+        font-family: sans-serif;
+        font-size: large;
+        flex-basis: content  ;
+        list-style-type: none;
+        position: sticky;
+        top: 0;
+        align-content: space-between ;
+        box-sizing:content-box ;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    .nav-list {
+        display: flex;
+        padding: 2 rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+        color:  #FFFFFF;
+        font-weight: rgb(241, 239, 239);
+        font-size: large;
+        list-style-type: none;
+        font-family: 'Rubik', sans-serif;
+        position: sticky;
+        top: 0;
+        flex-direction:row ;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: stretch;
+        box-sizing:content-box ;
+       
+     }
+     } }

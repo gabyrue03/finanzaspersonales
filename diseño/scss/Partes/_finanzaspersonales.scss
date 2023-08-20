@@ -1,0 +1,121 @@
+.container
+{  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center ;
+    padding: 5px 5px 5px 5px ;
+    height: auto;
+    background-image:url(../../../Imagenes/lluviadolar.jpeg);
+    background-image: center;
+    color:#FFFFFF;
+    font-size: 1rem;
+    position: sticky;
+    padding-top: 2rem ;
+    gap: 1rem;
+    flex-direction: row;
+    box-sizing:content-box ;
+    
+ }
+ .finanzas-personales {
+    display: flex;
+    margin: 10x 10px 10px 10px;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: #3105f7;
+    font-weight: rgb(241, 239, 239);
+    font-size: large;
+    list-style-type: none;
+    font-family: 'Rubik', sans-serif;
+    position: sticky;
+    top: 0;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+    box-sizing:content-box ;
+    padding: 20px 20px 20px 20px ;  }
+
+    .finanzas-titulo{
+        display: flex;
+        margin:auto;
+        padding: 2 rem;
+        padding-top: 2.5rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+        color: #070583;
+        font-weight: rgb(241, 239, 239);
+        font-size: x-large;
+        list-style-type: none;
+        font-family: 'Rubik', sans-serif;
+        position: sticky;
+        top: 0;
+        flex-direction:row ;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: stretch;
+        box-sizing:content-box ;
+        padding: 5px 5px 5px 5px ;   
+
+.finanzas-texto1{
+    display: flex;
+    margin:auto;
+    padding: 2 rem;
+    padding-top: 2.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: #3105f7;
+    font-weight: rgb(241, 239, 239);
+    font-size: large;
+    list-style-type: none;
+    font-family: 'Rubik', sans-serif;
+    position: sticky;
+    top: 0;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+    box-sizing:content-box ;
+    padding: 5px 5px 5px 5px ; 
+     } }
+
+.finanzas-texto2{
+    display: flex;
+    margin:auto;
+    padding: 2 rem;
+    margin-bottom: 1rem;
+    padding-top: 2.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: #3105f7;
+    font-weight: rgb(241, 239, 239);
+    font-size: large;
+    list-style-type: none;
+    font-family: 'Rubik', sans-serif;
+    position: sticky;
+    top: 0;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+    box-sizing:content-box ;
+    padding: 5px 5px 5px 5px ;    
+  }  
+  .video { align-items: center;}
+  .nav-menu { 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: rgb(250, 248, 248);
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: large;
+    flex-basis: content  ;
+    list-style-type: none;
+    position: sticky;
+    top: 0;
+    align-content: space-between ;
+    box-sizing:content-box ;
+    justify-content: space-evenly;
+    align-items: center;
+ }  
