@@ -1,3 +1,26 @@
+.container
+{  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center ;
+    padding: 5px 5px 5px 5px ;
+    height: auto;
+    background-image:url(../../../Imagenes/lluviadolar.jpeg);
+    background-image: center;
+    color:#FFFFFF;
+    font-size: 1rem;
+    position: sticky;
+    padding-top: 2rem ;
+    gap: 1rem;
+    flex-direction: row;
+    box-sizing:content-box ;
+    
+ }
+
+
+
+
 .contacto-header {
     display: grid;
 
@@ -15,3 +38,26 @@ grid-template-areas: "mapa  contacto"
     justify-content: space-evenly;
     align-items: left;
 }
+
+.menu-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center ;
+    padding: 5px 5px 5px 5px ;
+    height: auto;
+    background-image:url(../../../Imagenes/moneda.jpg);
+    color: rgb(243, 239, 239);
+    
+    font-size: 1rem;
+    position: sticky;
+    padding-top: 1.5rem ; 
+    flex-direction: row;
+    box-sizing:content-box ;
+     }
+  
+    .logo {
+     display: flex;
+    box-sizing:content-box ;
+    }
+     
